@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+python3 gas_slow.py >>/dev/null 2>&1 &
+python3 gas.py >>/dev/null 2>&1 &
+
