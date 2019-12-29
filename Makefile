@@ -5,7 +5,7 @@ checkCollisions.so: src/checkCollisions.cpp
 		-o checkCollisions.so
 
 test: checkCollisions.so
-	@pytest main.py
+	@pytest tests/test.py -sv
 
 clean:
 	rm -rf *.so

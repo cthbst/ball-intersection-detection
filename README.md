@@ -12,3 +12,8 @@ bash setup.sh
 cd examples
 ./Demo
 ```
+
+## Test
+```
+make test
+```
