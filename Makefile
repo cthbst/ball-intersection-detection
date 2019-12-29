@@ -8,4 +8,4 @@ test: checkCollisions.so
 	@pytest main.py
 
 clean:
-	rm *.so __pycache__ .pytest_cache -rf 
+	rm -rf *.so
